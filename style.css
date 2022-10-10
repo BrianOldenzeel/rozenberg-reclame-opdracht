@@ -30,3 +30,9 @@
     text-decoration: none; 
     margin-bottom: 10px;
 }
+
+.banner {
+    height: 400px;
+    width: 100vw;
+}
+
