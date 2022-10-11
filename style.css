@@ -1,5 +1,4 @@
 .navbar {
-
     height: 70px;
 }
 
@@ -8,10 +7,10 @@
     z-index: 100;
 }
 
-.btn {
-    margin-bottom: 60px;
-    margin-right: 100px;
+.nav {
+    margin-bottom: 75px;
 }
+
 
 .button {
     border: none;
@@ -21,7 +20,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     margin-right: 100px;
     cursor: pointer;
     background-color: darkred;
@@ -76,6 +75,8 @@
 
 .project-description span {
     text-align: center;
+    width: 100%;
+    margin: auto;
 }
 
 .project-button {
@@ -95,8 +96,17 @@
     background-color: #730000;
 }
 
-.overons {
-    height: 600px;
-    background-color: lightgray;
+.wrapper {
+    height: 500px;
     margin-top: 200px;
 }
+
+.banner2 {
+    width: 100%;
+}
+
+.footer {
+    height: 200px;
+}
+
+.list-group-item {}
