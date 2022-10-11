@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     max-height: 70px;
 }
@@ -15,22 +21,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 100px;
+    margin-left: 70px;
     cursor: pointer;
     background-color: darkred;
 }
 
-.navbar-inner {
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-
-    #navitem #button {
-        display:none;
-    }
-}
 
 .banner {
     height: 500px;
@@ -96,20 +91,52 @@
     background-color: #730000;
 }
 
-.wrapper {
-    height: 600px;
+.aboutsection {
+    height: 800px;
     margin-top: 200px;
 }
 
-.col {
-    margin-top: 100px;
-}
 
 .banner2 {
+    background-image: url(/img/Group-175.jpg);
+    height:500px;
     width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button3 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.button4 {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: inherit;
 }
 
 .footer {
-    height: 200px;
+    height: 170px;
 }
 
