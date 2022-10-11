@@ -10,6 +10,7 @@
 
 .navbar-brand {
     margin-left: 100px;
+    min-height: 120px;
     z-index: 100;
 }
 
@@ -118,7 +119,7 @@
 .button3 {
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 17px 34px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
