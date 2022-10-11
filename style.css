@@ -1,16 +1,11 @@
 .navbar {
-    height: 70px;
+    max-height: 70px;
 }
 
 .navbar-brand {
     margin-left: 100px;
     z-index: 100;
 }
-
-.nav {
-    margin-bottom: 75px;
-}
-
 
 .button {
     border: none;
@@ -20,8 +15,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-bottom: 80px;
-    margin-right: 100px;
+    margin-left: 100px;
     cursor: pointer;
     background-color: darkred;
 }
@@ -29,6 +23,13 @@
 .navbar-inner {
     text-decoration: none;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #navitem #button {
+        display:none;
+    }
 }
 
 .banner {
@@ -100,6 +101,10 @@
     margin-top: 200px;
 }
 
+.col {
+    margin-top: 100px;
+}
+
 .banner2 {
     width: 100%;
 }
@@ -108,4 +113,3 @@
     height: 200px;
 }
 
-.list-group-item {}

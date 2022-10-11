@@ -13,42 +13,56 @@
 </head>
 
 <body>
-    <nav id="navbarstyle" class="navbar bg-light">
-        <div class="container-fluid">
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/img/logo.png" alt="" width="120" height="120" class="d-inline-block align-text-top">
+                <img src="/img/logo.png" height="120px" width="120px" alt="">
             </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
 
-<ul class="nav justify-content-center">
-    <li class="nav-item dropdown">
-        <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">test</a></li>
-          <li><a class="dropdown-item" href="#">test</a></li>
-          <li><a class="dropdown-item" href="#">test</a></li>
-        </ul>
-      </li>
 
-  <li class="nav-item px-5">
-    <a class="nav-link text-black" href="#">Link</a>
-  </li>
-  <li class="nav-item px-5">
-    <a class="nav-link text-black" href="#">Link</a>
-  </li>
-  <li class="nav-item px-5">
-    <a class="nav-link text-black">link</a>
-  </li>
-</ul>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="nav ">
+            <li class="nav-item dropdown">
+                <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Diensten
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Overs Ons</a></li>
+                    <li><a class="dropdown-item" href="#">Ons Werk</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+            </li>
 
-            <button class="button button1">Offerte aanvragen</button>
-    </nav>
-    <section>
+            <li class="nav-item px-5">
+                <a class="nav-link text-black" href="#">Link</a>
+            </li>
+            <li class="nav-item px-5">
+                <a class="nav-link text-black" href="#">Link</a>
+            </li>
+            <li class="nav-item px-5">
+                <a class="nav-link  text-black" href="#">link</a>
+            </li>
+            </ul>
+
+            <button id="button" class="button button1">Offerte aanvragen</button>
+        </div>
+    </div>
+</nav>
+<section>
         <img class="banner img-fluid" src="/img/20170602_133902-scaled.jpg" alt="">
-    </section>
+</section>
 
-    <section>
+<section>
         <p class="text-center mt-5 fs-1 text fw-bold">Projecten</p>
 
         <div class="grid-project">
@@ -131,17 +145,31 @@
             </div>
         </div>
         
-    </section>
+</section>
 
-    <section class="wrapper bg-light">
+<section class="wrapper bg-light">
+    <div class="container text-start">
+        <div id="about" class="row align-items-start">
+            <div class="col">
+                <img src="/img/Schermafbeelding 2022-10-11 184810.png" height="400px" width="400px" alt="">
+            </div>
+            <div class="col">
+                <h1>Over Rozenberg Reclame</h1>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde reprehenderit impedit, libero sint, sed, corporis adipisci tempora nemo maxime illum rem molestias? Et earum provident cumque fugiat nostrum dolores?
+                <br>
+                <button id="button" style="margin-top:50px ;" class="button button1">Offerte aanvragen</button>
+            </div>
+        </div>
+        
+    </div>
+</section>
 
-    </section>
-
-    <section>
+<section>
         <img class="banner2" src="img/Group-175.jpg" alt="">
-    </section>
+</section>
 
-    <section class="footer bg-dark text-white">
+<section class="footer bg-dark text-white">
         <div class="container text-center">
 <div class="row">
     <div class="col mt-3">
@@ -167,7 +195,7 @@
     </div>
 </div>
 </div>
-    </section>
+</section>
 
 </body>
 
