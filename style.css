@@ -34,7 +34,6 @@
 .banner {
     height: 500px;
     width: 100%;
-    overflow: hidden;
 }
 
 .grid-project {
@@ -97,7 +96,7 @@
 }
 
 .wrapper {
-    height: 500px;
+    height: 600px;
     margin-top: 200px;
 }
 
